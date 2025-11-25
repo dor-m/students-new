@@ -1,0 +1,5 @@
+{
+  "name": "Student Bulletin Board",
+  "description": "A dynamic student bulletin board with categorized posts for academic news, social events, housing, items for sale, and a general events calendar.",
+  "requestFramePermissions": []
+}
