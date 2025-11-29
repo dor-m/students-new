@@ -33,6 +33,9 @@ const App: React.FC = () => {
         <Header />
         <main className="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100 p-4 sm:p-6 lg:p-8">
           {renderContent()}
+          <div className="mt-8 mb-4 flex justify-center">
+            <div className="loader"></div>
+          </div>
         </main>
       </div>
     </div>
