@@ -19,5 +19,9 @@ export default defineConfig(({ mode }) => {
           '@': path.resolve(__dirname, '.'),
         }
       }
+            base: '/students-new/',
+            build: {
+              outDir: 'dist',
+                      }
     };
 });
